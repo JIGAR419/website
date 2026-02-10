@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- FAVICON -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<title>Container Loading Guidance | WE2O</title>
+<meta name="description" content="Container loading guidance for exporters, importers and logistics professionals before using WE2O 3D calculation tool.">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    background: #ffffff;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    border-bottom: 1px solid #e5e7eb;
+}
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1f4e79;
+}
+.logo span {
+    color: #7cc242;
+}
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #1f2937;
+}
+nav a:hover {
+    color: #1f4e79;
+}
+
+/* PAGE CONTENT */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+.container h1 {
+    color: #1f4e79;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.container p {
+    color: #4b5563;
+    max-width: 750px;
+    margin: auto;
+    font-size: 16px;
+}
+
+/* FAQ ACCORDION */
+.faq {
+    margin-top: 50px;
+    text-align: left;
+}
+.faq-item {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.faq-question {
+    background: #ffffff;
+    padding: 18px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f4e79;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-question span {
+    font-size: 20px;
+}
+.faq-answer {
+    display: none;
+    padding: 18px 20px;
+    border-top: 1px solid #e5e7eb;
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+    background: #0f172a;
+    color: #d1d5db;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+footer a {
+    color: #9ca3af;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: #ffffff;
+}
+</style>
+
+<script>
+function toggleFaq(id) {
+    const el = document.getElementById(id);
+    el.style.display = el.style.display === "block" ? "none" : "block";
+}
+</script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">WE<span>2</span>O</div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/features.html">Features</a>
+        <a href="/guidance.html">Guidance</a>
+        <a href="https://app.we2o.online" target="_blank">3D Calculation</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Container Loading Guidance</h1>
+    <p>
+        This guidance helps exporters, importers and logistics professionals understand
+        container loading principles before using the WE2O 3D calculation tool.
+    </p>
+
+    <div class="faq">
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq('q1')">
+                What is container loading?
+                <span>+</span>
+            </div>
+            <div class="faq-answer" id="q1">
+                Container loading is the process of placing cargo inside a shipping container
+                in a safe, stable and optimized manner to maximize space, maintain proper
+                weight balance and ensure cargo safety during transportation.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq('q2')">
+                What is container stuffing?
+                <span>+</span>
+            </div>
+            <div class="faq-answer" id="q2">
+                Container stuffing refers to arranging cargo inside a container based on
+                dimensions, weight, quantity and stacking limitations to avoid damage and
+                shifting during transit.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq('q3')">
+                Container stuffing best practices
+                <span>+</span>
+            </div>
+            <div class="faq-answer" id="q3">
+                <ul>
+                    <li>Distribute weight evenly across the container floor</li>
+                    <li>Place heavier cargo at the bottom and lighter cargo on top</li>
+                    <li>Avoid empty gaps that may cause cargo movement</li>
+                    <li>Respect container payload and wall strength limits</li>
+                    <li>Plan cargo orientation before loading begins</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq('q4')">
+                20ft & 40ft container loading considerations
+                <span>+</span>
+            </div>
+            <div class="faq-answer" id="q4">
+                A 20ft container has limited space and payload capacity, while a 40ft container
+                allows higher volume but still requires proper weight balance and planning
+                to avoid overloading.
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq('q5')">
+                When should I use the WE2O 3D calculation tool?
+                <span>+</span>
+            </div>
+            <div class="faq-answer" id="q5">
+                After understanding container loading principles and best practices,
+                you should use the WE2O 3D calculation tool to generate accurate,
+                optimized container loading plans.
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 WE2O · All rights reserved ·
+    <a href="mailto:info@we2o.online">info@we2o.online</a> |
+    <a href="https://www.linkedin.com/company/we2o/" target="_blank" rel="noopener">LinkedIn</a>
+</footer>
+
+</body>
+</html>
