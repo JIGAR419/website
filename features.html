@@ -1,60 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
+<title>Container Stuffing Software Features | WE2O</title>
+<meta name="description" content="Explore WE2O container stuffing software features including container planning, cargo optimization and 3D container loading.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Container Stuffing Software Features | WE2O</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(to bottom,#b8e0ff 0%,#ffffff 60%);
+    overflow-x:hidden;
+    color:#1f2937;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:18px 40px;
+    background:rgba(255,255,255,0.9);
+}
+.logo{font-size:26px;font-weight:bold;color:#1f4e79}
+.logo span{color:#7cc242}
+nav a{margin-left:25px;text-decoration:none;color:#1f2937}
 
-  <meta name="description" content="Explore WE2O container stuffing software features including container planning, cargo optimization, weight balance and 3D container loading calculation.">
+.section{padding:100px 40px;max-width:1000px;margin:auto}
 
-  <link rel="canonical" href="https://we2o.online/features.html">
-  <meta name="robots" content="index, follow">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+h1,h2{color:#1f4e79}
 
-  <style>
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#1f2937}
-    header{display:flex;justify-content:space-between;align-items:center;padding:18px 40px;border-bottom:1px solid #e5e7eb}
-    .logo{font-size:26px;font-weight:bold;color:#1f4e79}
-    .logo span{color:#7cc242}
-    nav a{margin-left:25px;text-decoration:none;font-weight:500;color:#1f2937}
-    nav a:hover{color:#1f4e79}
-    .section{padding:80px 40px;max-width:1200px;margin:auto}
-    h1,h2{color:#1f4e79}
-    .btn{display:inline-block;margin-top:20px;padding:14px 36px;background:#1f4e79;color:#fff;border-radius:6px;text-decoration:none}
-    footer{background:#111827;color:#d1d5db;text-align:center;padding:18px;font-size:14px}
-  </style>
+.wave-wrapper{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:160px;
+    z-index:-1;
+}
+.wave-wrapper svg{
+    position:absolute;
+    bottom:0;
+    width:200%;
+    height:160px;
+    animation:waveMove linear infinite;
+}
+.wave-wrapper svg:nth-child(1){animation-duration:14s;}
+.wave-wrapper svg:nth-child(2){animation-duration:20s;opacity:.6;}
+.wave-wrapper svg:nth-child(3){animation-duration:28s;opacity:.4;}
+
+@keyframes waveMove{
+    from{transform:translateX(0)}
+    to{transform:translateX(-50%)}
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <div class="logo">WE<span>2</span>O</div>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/features.html">Features</a>
-    <a href="/guidance.html">Guidance</a>
-    <a href="https://app.we2o.online" target="_blank">3D Calculation</a>
-  </nav>
+<div class="logo">WE<span>2</span>O</div>
+<nav>
+<a href="/">Home</a>
+<a href="/blog.html">Blog</a>
+<a href="/features.html">Features</a>
+<a href="/guidance.html">Guidance</a>
+<a href="https://app.we2o.online" target="_blank">3D Calculation</a>
+</nav>
 </header>
 
 <section class="section">
-  <h1>Container Stuffing Software Features</h1>
+<h1>Container Stuffing Software Features</h1>
 
-  <h2>Smart Container Planning</h2>
-  <p>Automatically calculate container space usage and cargo placement.</p>
+<h2>Smart Container Planning</h2>
+<p>Automatically calculate container space usage and cargo placement.</p>
 
-  <h2>Weight Balance & Safety</h2>
-  <p>Ensure proper weight distribution to reduce cargo damage.</p>
+<h2>Weight Balance & Safety</h2>
+<p>Ensure proper weight distribution and compliance.</p>
 
-  <h2>3D Container Loading Calculation</h2>
-  <p>Visualize container loading using the WE2O 3D calculation tool.</p>
+<h2>3D Container Visualization</h2>
+<p>See container stuffing in interactive 2D and 3D views.</p>
 
-  <a class="btn" href="/guidance.html">View Loading Guidance</a>
 </section>
 
-<footer>
-  © 2026 WE2O · <a href="/">Home</a>
-</footer>
+<div class="wave-wrapper">
+<svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+<path d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z" fill="#0077b6"/>
+</svg>
+<svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+<path d="M0,80 C400,20 800,120 1200,80 L1200,120 L0,120 Z" fill="#0096c7"/>
+</svg>
+<svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+<path d="M0,100 C350,40 850,140 1200,100 L1200,120 L0,120 Z" fill="#48cae4"/>
+</svg>
+</div>
 
 </body>
 </html>
