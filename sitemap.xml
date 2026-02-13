@@ -8,10 +8,22 @@
 
   <url>
     <loc>https://we2o.online/features.html</loc>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://we2o.online/guidance.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://we2o.online/blog.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://we2o.online/smart-container-planning-for-exporters.html</loc>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
